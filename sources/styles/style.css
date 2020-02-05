@@ -1,0 +1,698 @@
+
+body
+{
+    font-family:Arial, Helvetica, sans-serif;
+    background:rgb(27, 27, 27);
+    overflow-x: hidden;
+}
+/* header */
+
+
+#menu_id
+{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 40px;
+    margin-left: -1%;
+    margin-right: -1%;
+    margin-bottom: 10%;
+
+}
+#menu_id ul
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+
+#menu_id a
+{
+    text-decoration: none;
+    color: white;
+    margin-right: 40px;
+}
+
+#menu_id a:hover
+{
+    color: rgb(255, 219, 100);
+}
+
+/* home page*/
+#container
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    width: 70%;
+    height: 200px;
+    margin: -5% 10% 5% 10%;
+    color: black;
+    font-family: 'Rockwell';
+}
+
+#container #title_cont1
+{
+    margin-left: 80%;
+    padding-left: 10%;
+    text-decoration: none;
+    font-size: 200%;
+    color: black;
+
+}
+
+#container #title_cont
+{
+    margin-right: 60px;
+    padding-right: 6%;
+    text-decoration: none;
+    font-size: 200%;
+    color: black;
+}
+
+#thumbnails
+{
+    position: absolute;
+    top: 130px;
+    left: 15%;
+    width: 70%;
+    height: 200px;
+    z-index: -1;
+}
+
+#articless
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 20%;
+    width: 80%;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+#articless #article_one
+{
+    position: relative;
+}
+
+#description_article_home
+{
+    position: absolute;
+    bottom: 10%;
+    height: 30%;
+    width: 100%;
+    background: rgba(128, 128, 128, 0.678);
+    color: black;
+}
+
+#articless #article_two
+{
+    position: relative;
+    margin-right: 21%;
+}
+
+#description_article_home p
+{
+    margin-left: 40%;
+    font-size: 20px;
+    margin-top: 5%;
+}
+
+#button_home
+{
+    height: 20%;
+    margin-top: 5%;
+    margin-left: 47%;
+    width: 10%;
+    background: #5A3D5C;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+}
+
+#button_home #link_a
+{
+    text-decoration: none;
+    color: white;
+}
+
+/* actualités */
+
+#thumbnail_title
+{
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    height: 15rem;
+    margin: 10% 10% 15% 10%;
+}
+
+#thumbnail_title img
+{
+    width: 100%;
+    height: 100%;
+}
+
+#atitle
+{
+    position: absolute;
+    font: 22px;
+    padding-bottom: 42px;
+    font-family: 'Rockwell';
+    color: black;
+}
+
+
+#articles
+{
+    display: block ;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    width: 80%;
+    margin: 5% 10% 5% 10%;
+}
+
+#articles #articles_title
+{
+    margin-left: 5%;
+    cursor: pointer;
+}
+#articles #articles_title2
+{
+    margin-left: 5%;
+    cursor: pointer;
+}
+#articles #articles_title3
+{
+    margin-left: 5%;
+    cursor: pointer;
+}
+#articles #group_one
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-right: 10%;
+    margin-left: 5%;
+    margin-bottom: 10%;
+
+}
+
+#article_actu
+{
+    margin-right: 2%;
+}
+
+#article_actu2
+{
+    margin-right: 2%;
+    margin-top: -2%;
+}
+
+
+#articles #group_two
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-right: 5%;
+    margin-left: 5%;
+    margin-bottom: 10%;
+    
+}
+
+#group-two #article_
+{
+    margin-right: 5%;
+}
+
+#articles #group_three
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-right: 5%;
+    margin-left: 5%;
+    margin-bottom: 10%;
+    
+}
+
+#article_3
+{
+    margin-left: 2%;
+    margin-top: -2%;
+}
+
+#articles p
+{
+    width: 80%;
+}
+
+#articles #article img
+{
+    width: 100%;
+}
+
+
+#articles #more
+{
+    text-decoration: none;
+    color: #aaaab8;
+}
+
+#articles #more:hover
+{
+    color: gold;
+    font-size: 17px;
+    transition: 1s;
+}
+
+
+/* evenements */
+#text
+{
+    font-size: 20px;
+    color: white;
+    margin-bottom: 10%;
+    width: 80%;
+}
+
+#conf
+{
+    margin-top: 5%;
+    margin-left: 20%;
+    width: 80%;
+    margin-bottom: 10%;
+}
+
+#conf img
+{
+    width: 50%;
+    height: auto;
+    margin-left: 12%;
+}
+
+#conf p
+{
+    color: white;
+    line-height: 150%;
+    width: 80%;
+}
+
+#conf a
+{
+    margin-left: 35%;
+    font-size: 20px;
+    text-decoration: none;
+    color: #f638dc ;
+}
+
+/* mouvement */
+
+#thumbnail
+{
+    width: 80%;
+    padding-left: 25%;
+}
+
+#thumbnail img
+{
+    width: 40%;
+    height: auto;
+    padding-left: 9%;
+}
+
+
+#candidat
+{
+    padding: 1% 10% 10% 10%;
+    color: rgb(231, 230, 230) ;
+}
+
+#button
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 25%;
+    height: 35px;
+    background: #f638dc;
+    border-radius: 20px;
+    margin-top: 5%;
+    margin-left: 38%;
+}
+
+#button a
+{
+    text-decoration: none;
+    color: white;
+}
+
+#all
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#content1
+{
+    position: relative;
+    display: block;
+    align-items: center;
+    width: 50%;
+    height: 300px;
+    background: #382039;
+    border-radius: 1%;
+    margin: 10% 25%;
+    margin-bottom: 10%;
+    font-size: 15px;
+    line-height: 20px;
+}
+
+#content1 #title1
+{
+    position: absolute;
+    top: 35%;
+    left: 37%;
+    font-family: 'Top Secret';
+    transition: 1s;
+}
+
+#content1 #container1
+{
+    opacity: 0;
+    transition: 1s;
+    padding: 1% 3%;
+    cursor: pointer;
+    color: #aaaab8;
+}
+
+#content1 #container1
+{
+    margin-top: -3%;
+}
+
+#content2
+{
+    position: relative;
+    display: block;
+    align-items: center;
+    width: 50%;
+    height: 380px;
+    background: #382039;
+    border-radius: 1%;
+    margin: 10% 25%;
+    margin-bottom: 20%;
+    font-size: 15px;
+    line-height: 20px;
+}
+
+#content2 #title2
+{
+    position: absolute;
+    top: 35%;
+    left: 35%;
+    font-family: 'Top Secret';
+    transition: 1s;
+}
+
+#content2 #container2
+{
+    opacity: 0;
+    transition: 1s;
+    padding: 3% 3%;
+    cursor: pointer;
+    color: #aaaab8;
+}
+
+#content
+{
+    position: relative;
+    display: block;
+    align-items: center;
+    width: 50%;
+    height: 430px;
+    background: #382039;
+    border-radius: 1%;
+    margin: 10% 25%;
+    margin-bottom: 10%;
+    font-size: 15px;
+    line-height: 20px
+}
+
+#content #title
+{
+    position: absolute;
+    top: 43%;
+    left: 35%;
+    font-family: 'Top Secret';
+    transition: 1s;
+}
+
+#content #container
+{
+    display: block;
+    opacity: 0;
+    transition: 1s;
+    padding: 0.1% 2%;
+    cursor: pointer;
+    width: 80%;
+    color: #aaaab8;
+    margin-top: -10%;
+}
+
+
+
+/* municipales 2020 */
+
+#main
+{
+    width: 1000px;
+    margin-right: auto;
+}
+
+#image 
+{
+    display: flex;
+    background-image: url(/sources/img/elections.jpg);
+    background-size: cover;
+    height: 20rem;
+    width: auto;
+    align-items: center;
+    position: relative;
+    padding-left: 10px;
+}
+#filter
+{
+    position:absolute;
+    top: 11.5%;
+    width: 80%;
+    margin-left: 20%;
+    height: 20rem;
+    background-color: rgba(255, 255, 255, 0.7);
+    left: 0%;
+    z-index: 2;
+}
+
+#titles 
+{
+    font-family: Roboto;
+    z-index: 3;
+    margin-left: 20%;
+}
+
+#title0
+{
+    color: #F638DC;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+}
+
+#title0
+{
+    color: #5A3D5C;
+    font-family: Roboto; 
+    font-size: 30px;
+}
+
+#title_1
+{
+    color: honeydew;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    margin: 0;
+}
+
+
+#title_1_
+{
+    color: honeydew;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 12px;
+    padding-bottom: 2rem;
+    margin-top: -0.3%;
+}
+
+
+#title_2_
+{
+    display: none;
+}
+
+
+#title_2
+{
+   font-size: 25px;
+   color: rgb(141, 33, 127);
+}
+
+
+#program-container
+{
+    display: flex;
+    padding-top: 4rem;
+    margin-bottom: 20px;
+    padding-left: 30%;
+    justify-content: space-between; 
+}
+
+#container_
+{
+    display: flex;
+    padding: 2rem;
+    width: 50%;
+}
+
+#marie_proposals, #para_one1
+{
+    color: #D09BC4;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#pourquoi
+{
+    margin-top: 5%;
+}
+
+#pourquoi, #para_two2
+{
+    color: #ACA3D9;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 19%;
+}
+
+
+#retraite2
+{
+    margin-top: 38%;
+}
+
+#pourquoi, #para_two2_
+{
+    color: #ACA3D9;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 3%;
+    padding-bottom: 10%;
+}
+
+#pourquoi, #para_two2_2
+{
+    color: #ACA3D9;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 5%;
+    padding-bottom: 10%;
+}
+
+#éducation2
+{
+    margin-top: 39%;
+}
+
+
+#thumbnail_c
+{
+    position: absolute;
+    top: 47px;
+    width: 100%;
+    height: 20rem;
+    top: 30%;
+}
+
+#thumbnail_c img
+{
+    position: absolute;
+    top: 47px;
+    width: 63%;
+    height: 100%;
+    margin-left: 16%;
+}
+
+
+
+/* s'engager */
+
+#title_nj
+{
+    padding-top: 2%;
+    font-size: 150%;
+    color: white;
+}
+.nf-form-cont
+{
+    padding-top: 2%;
+    padding-bottom: 10%;
+    width: 500px;
+    margin: auto;
+    margin-top: 2%;
+    color: white;
+}
+
+.nf-form-cont .nf-before-form-content
+{
+    margin-bottom: 7%;
+}
+
+.nf-form-cont #nf-field-14
+{
+    background: #382039;
+    border-radius: 20px;
+    cursor: pointer;
+    width: 20%;
+    margin-left: 40%;
+}
+
+
+.menu-footer_menu-container
+{
+    margin-top: 10%;
+    height: 20%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #382039c9;
+}
+.footer_menu
+{
+    list-style: none;
+}
+
+.menu-footer_menu-container li
+{
+    padding-top: 10%;
+    padding-left: 15%;
+    font-size: 30px;
+}
